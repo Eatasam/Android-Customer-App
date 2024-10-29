@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 2.619 s <<< FAILURE! - in TestSuite
+Landing(EatasamAutomation.Garage.LandingScreen)  Time elapsed: 1.082 s  <<< FAILURE!
+java.lang.NullPointerException
+	at EatasamAutomation.Garage.LandingScreen.captureScreenshot(LandingScreen.java:52)
+	at EatasamAutomation.Garage.LandingScreen.Landing(LandingScreen.java:222)
+
+Login(EatasamAutomation.Garage.Optimized)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.NullPointerException
+	at EatasamAutomation.Garage.Optimized.captureScreenshot(Optimized.java:91)
+	at EatasamAutomation.Garage.Optimized.Login(Optimized.java:253)
+
+tearDown(EatasamAutomation.Garage.Optimized)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.NullPointerException
+	at EatasamAutomation.Garage.Optimized.tearDown(Optimized.java:260)
+
+Setting(EatasamAutomation.Garage.Settings)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.NullPointerException
+	at EatasamAutomation.Garage.Settings.captureScreenshot(Settings.java:67)
+	at EatasamAutomation.Garage.Settings.Setting(Settings.java:332)
+
