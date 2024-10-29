@@ -16,7 +16,7 @@
   
       <test thread-count="1" name="MyCars">
     <classes>
-      <class name="EatasamAutomation.Garage.Optimized"/>
+      <class name="EatasamAutomation.Garage.AddCar"/>
 
     </classes>
   </test>
