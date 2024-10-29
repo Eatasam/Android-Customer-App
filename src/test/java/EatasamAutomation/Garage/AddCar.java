@@ -120,6 +120,7 @@ public class AddCar {
             long startTime, endTime;
 
             startTime = System.currentTimeMillis();
+            AddCar.info("Adding phone number.");
 
             WebElement el1 = driver.findElement(AppiumBy.id("karage.sa.customer:id/edtPhoneNo"));
             el1.click();
@@ -133,6 +134,7 @@ public class AddCar {
             
 
             startTime = System.currentTimeMillis();
+            AddCar.info("Clicking on Continue.");
 
             WebElement el2 = driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().text(\"Continue\")"));
             el2.click();
@@ -145,6 +147,7 @@ public class AddCar {
             
             
             startTime = System.currentTimeMillis();
+            AddCar.info("Adding OTP.");
 
             WebElement el3 = driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\")"));
             el3.sendKeys("123111");
@@ -156,6 +159,7 @@ public class AddCar {
 
             
             startTime = System.currentTimeMillis();
+            AddCar.info("Clicking on Login Button.");
 
             WebElement elcont = driver.findElement(AppiumBy.id("karage.sa.customer:id/login"));
             elcont.click();
@@ -166,6 +170,7 @@ public class AddCar {
             
             
             startTime = System.currentTimeMillis();
+            AddCar.info("Giving permisson to allow access.");
 
             WebElement elnoti = driver.findElement(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button"));
             elnoti.click();
